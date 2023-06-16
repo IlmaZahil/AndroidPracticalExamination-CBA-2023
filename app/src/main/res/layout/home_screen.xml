@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center"
+    android:background="@drawable/wallpaper"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".HomeScreen">
+
+
+
+    <Button
+        android:id="@+id/viewProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/peach"
+        android:text="View Profile" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/myImageButton"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:src="@drawable/avatar"-->
+<!--        android:scaleType="fitCenter" />-->
+
+
+
+
+
+</LinearLayout>
